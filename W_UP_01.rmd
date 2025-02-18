@@ -41,6 +41,14 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+boxplot(pushups~position,data=mydata)
+```
+
+It looks like the skill players are doing a lot more pushups than the line players are doing.
+
+It looks like no line player did as many as 40 pushups. However, 25% of the skill players did about 35 pushups.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
